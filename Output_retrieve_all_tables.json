@@ -1,0 +1,271 @@
+PS C:\Users\sharmadeep\DataAssist_poc> python .\ingest_alltables_bulkdata.py
+Indexed sample document for table: BIEMDstgSOHRackRateCube
+Indexed sample document for table: DayWiseWorkFromOffice
+Indexed sample document for table: AverageHours
+Indexed sample document for table: CompanyMovementDetails
+Indexed sample document for table: Compliance
+Indexed sample document for table: JoinedDetails
+Indexed sample document for table: MasterData
+Indexed sample document for table: PartTime
+Indexed sample document for table: RSU
+Indexed sample document for table: SecondmentDetails
+Indexed sample document for table: SeparationDetails
+Indexed sample document for table: Transfer
+Indexed sample document for table: WorkDayStatus
+Indexed sample document for table: LeaveEligibility
+Indexed sample document for table: LeaveTransaction
+Indexed sample document for table: MonthWiseWorkFromOffice
+Indexed sample document for table: Project Details
+Indexed sample document for table: Revenue
+Indexed sample document for table: Expense
+Indexed sample document for table: Effort
+Indexed sample document for table: Cockpit Linked Code Details
+Indexed sample document for table: ELF Next due by Calculation
+Indexed sample document for table: BEST Details
+PS C:\Users\sharmadeep\DataAssist_poc> python .\retrieve_all_tables.py
+Found tables: ['AverageHours', 'BEST Details', 'BIEMDstgSOHRackRateCube', 'Cockpit Linked Code Details', 'CompanyMovementDetails', 'Compliance', 'DayWiseWorkFromOffice', 'ELF Next due by Calculation', 'Effort', 'Expense', 'JoinedDetails', 'LeaveEligibility', 'LeaveTransaction', 'MasterData', 'MonthWiseWorkFromOffice', 'PartTime', 'Project Details', 'RSU', 'Revenue', 'SecondmentDetails', 'SeparationDetails', 'Transfer', 'WorkDayStatus']
+
+--- Sample document from table: AverageHours ---
+AverageHours[AverageHours]: 00:00
+AverageHours[Quarter]: Q2
+AverageHours[TotalOnDutyHours]: 00:00
+AverageHours[TotalWFHHours]: 340.5
+AverageHours[Year]: FY25
+table_name: AverageHours
+content: Sample data for table AverageHours: AverageHours[AverageHours]=00:00, AverageHours[Quarter]=Q2, AverageHours[TotalOnDutyHours]=00:00, AverageHours[TotalWFHHours]=340.5, AverageHours[Year]=FY25, table_name=AverageHours      
+
+
+--- Sample document from table: BEST Details ---
+'BEST Details'[Rating]: Sample 'BEST Details'[Rating]
+'BEST Details'[NextAssessmentDueDate]: 2024-01-01 00:00:00
+'BEST Details'[LastBESTAssessedDate]: 2024-01-01 00:00:00
+'BEST Details'[OpenFindings]: 16
+'BEST Details'[AssessmentOverDue]: 36
+'BEST Details'[Due for BEST Rating]: Sample 'BEST Details'[Due for BEST Rating]
+table_name: BEST Details
+content: Sample data for table BEST Details: 'BEST Details'[Rating]=Sample 'BEST Details'[Rating], 'BEST Details'[NextAssessmentDueDate]=2024-01-01 00:00:00, 'BEST Details'[LastBESTAssessedDate]=2024-01-01 00:00:00, 'BEST Details'[OpenFindings]=16, 'BEST Details'[AssessmentOverDue]=36, 'BEST Details'[Due for BEST Rating]=Sample 'BEST Details'[Due for BEST Rating], table_name=BEST Details
+
+
+--- Sample document from table: BIEMDstgSOHRackRateCube ---
+BIEMDstgSOHRackRateCube[Niche_Premium]: Sample BIEMDstgSOHRackRateCube[Niche_Premium]
+BIEMDstgSOHRackRateCube[Quarter_Desc]: Sample BIEMDstgSOHRackRateCube[Quarter_Desc]
+BIEMDstgSOHRackRateCube[Segment]: Sample BIEMDstgSOHRackRateCube[Segment]
+table_name: BIEMDstgSOHRackRateCube
+content: Sample data for table BIEMDstgSOHRackRateCube: BIEMDstgSOHRackRateCube[Niche_Premium]=Sample BIEMDstgSOHRackRateCube[Niche_Premium], BIEMDstgSOHRackRateCube[Quarter_Desc]=Sample BIEMDstgSOHRackRateCube[Quarter_Desc], BIEMDstgSOHRackRateCube[Segment]=Sample BIEMDstgSOHRackRateCube[Segment], table_name=BIEMDstgSOHRackRateCube
+
+
+--- Sample document from table: Cockpit Linked Code Details ---
+'Cockpit Linked Code Details'[ProjectCode]: Sample 'Cockpit Linked Code Details'[ProjectCode]
+'Cockpit Linked Code Details'[CustomerCode]: Sample 'Cockpit Linked Code Details'[CustomerCode]
+'Cockpit Linked Code Details'[Unit]: Sample 'Cockpit Linked Code Details'[Unit]
+'Cockpit Linked Code Details'[PracticeUnit]: Sample 'Cockpit Linked Code Details'[PracticeUnit]
+'Cockpit Linked Code Details'[DeliveryUnit]: Sample 'Cockpit Linked Code Details'[DeliveryUnit]
+'Cockpit Linked Code Details'[Status]: Sample 'Cockpit Linked Code Details'[Status]
+'Cockpit Linked Code Details'[ProjectStatus]: Sample 'Cockpit Linked Code Details'[ProjectStatus]
+'Cockpit Linked Code Details'[LinkedTo]: Sample 'Cockpit Linked Code Details'[LinkedTo]
+'Cockpit Linked Code Details'[PROPELFTE]: 25.32
+'Cockpit Linked Code Details'[PMLoginId]: Sample 'Cockpit Linked Code Details'[PMLoginId]
+'Cockpit Linked Code Details'[DMLoginId]: Sample 'Cockpit Linked Code Details'[DMLoginId]
+'Cockpit Linked Code Details'[SDMLoginId]: Sample 'Cockpit Linked Code Details'[SDMLoginId]
+'Cockpit Linked Code Details'[GPMLoginId]: Sample 'Cockpit Linked Code Details'[GPMLoginId]
+'Cockpit Linked Code Details'[AQMEmpMailID]: Sample 'Cockpit Linked Code Details'[AQMEmpMailID]
+'Cockpit Linked Code Details'[PQMEmpMailID]: Sample 'Cockpit Linked Code Details'[PQMEmpMailID]
+'Cockpit Linked Code Details'[QualityAnchorLoginId]: Sample 'Cockpit Linked Code Details'[QualityAnchorLoginId]     
+'Cockpit Linked Code Details'[SPMLoginId]: Sample 'Cockpit Linked Code Details'[SPMLoginId]
+'Cockpit Linked Code Details'[ManagedBy]: Sample 'Cockpit Linked Code Details'[ManagedBy]
+'Cockpit Linked Code Details'[RiskStatus]: Sample 'Cockpit Linked Code Details'[RiskStatus]
+'Cockpit Linked Code Details'[EndDate]: 2024-01-01 00:00:00
+'Cockpit Linked Code Details'[PROPELEndDate]: 2024-01-01 00:00:00
+'Cockpit Linked Code Details'[IsLinked]: Sample 'Cockpit Linked Code Details'[IsLinked]
+'Cockpit Linked Code Details'[Service]: Sample 'Cockpit Linked Code Details'[Service]
+'Cockpit Linked Code Details'[MasterProjectCode]: Sample 'Cockpit Linked Code Details'[MasterProjectCode]
+'Cockpit Linked Code Details'[MasterCustomerCode]: Sample 'Cockpit Linked Code Details'[MasterCustomerCode]
+'Cockpit Linked Code Details'[SubUnit]: Sample 'Cockpit Linked Code Details'[SubUnit]
+'Cockpit Linked Code Details'[PROPELTeamSize]: 9.65
+'Cockpit Linked Code Details'[ProjectAgeing]: Sample 'Cockpit Linked Code Details'[ProjectAgeing]
+'Cockpit Linked Code Details'[tools]: Sample 'Cockpit Linked Code Details'[tools]
+'Cockpit Linked Code Details'[technology]: Sample 'Cockpit Linked Code Details'[technology]
+'Cockpit Linked Code Details'[ServiceOfferings]: Sample 'Cockpit Linked Code Details'[ServiceOfferings]
+table_name: Cockpit Linked Code Details
+content: Sample data for table Cockpit Linked Code Details: 'Cockpit Linked Code Details'[ProjectCode]=Sample 'Cockpit Linked Code Details'[ProjectCode], 'Cockpit Linked Code Details'[CustomerCode]=Sample 'Cockpit Linked Code Details'[CustomerCode], 'Cockpit Linked Code Details'[Unit]=Sample 'Cockpit Linked Code Details'[Unit], 'Cockpit Linked Code Details'[PracticeUnit]=Sample 'Cockpit Linked Code Details'[PracticeUnit], 'Cockpit Linked Code Details'[DeliveryUnit]=Sample 'Cockpit Linked Code Details'[DeliveryUnit], 'Cockpit Linked Code Details'[Status]=Sample 'Cockpit Linked Code Details'[Status], 'Cockpit Linked Code Details'[ProjectStatus]=Sample 'Cockpit Linked Code Details'[ProjectStatus], 'Cockpit Linked Code Details'[LinkedTo]=Sample 'Cockpit Linked Code Details'[LinkedTo], 'Cockpit Linked Code Details'[PROPELFTE]=25.32, 'Cockpit Linked Code Details'[PMLoginId]=Sample 'Cockpit Linked Code Details'[PMLoginId], 'Cockpit Linked Code Details'[DMLoginId]=Sample 'Cockpit Linked Code Details'[DMLoginId], 'Cockpit Linked Code Details'[SDMLoginId]=Sample 'Cockpit Linked Code Details'[SDMLoginId], 'Cockpit Linked Code Details'[GPMLoginId]=Sample 'Cockpit Linked Code Details'[GPMLoginId], 'Cockpit Linked Code Details'[AQMEmpMailID]=Sample 'Cockpit Linked Code Details'[AQMEmpMailID], 'Cockpit Linked Code Details'[PQMEmpMailID]=Sample 'Cockpit Linked Code Details'[PQMEmpMailID], 'Cockpit Linked Code Details'[QualityAnchorLoginId]=Sample 'Cockpit Linked Code Details'[QualityAnchorLoginId], 'Cockpit Linked Code Details'[SPMLoginId]=Sample 'Cockpit Linked Code Details'[SPMLoginId], 'Cockpit Linked Code Details'[ManagedBy]=Sample 'Cockpit Linked Code Details'[ManagedBy], 'Cockpit Linked Code Details'[RiskStatus]=Sample 'Cockpit Linked Code Details'[RiskStatus], 'Cockpit Linked Code Details'[EndDate]=2024-01-01 00:00:00, 'Cockpit Linked Code Details'[PROPELEndDate]=2024-01-01 00:00:00, 'Cockpit Linked Code Details'[IsLinked]=Sample 'Cockpit Linked Code Details'[IsLinked], 'Cockpit Linked Code Details'[Service]=Sample 'Cockpit Linked Code Details'[Service], 'Cockpit Linked Code Details'[MasterProjectCode]=Sample 'Cockpit Linked Code Details'[MasterProjectCode], 'Cockpit Linked Code Details'[MasterCustomerCode]=Sample 'Cockpit Linked Code Details'[MasterCustomerCode], 'Cockpit Linked Code Details'[SubUnit]=Sample 'Cockpit Linked Code Details'[SubUnit], 'Cockpit Linked Code Details'[PROPELTeamSize]=9.65, 'Cockpit Linked Code Details'[ProjectAgeing]=Sample 'Cockpit Linked Code Details'[ProjectAgeing], 'Cockpit Linked Code Details'[tools]=Sample 'Cockpit Linked Code Details'[tools], 'Cockpit Linked Code Details'[technology]=Sample 'Cockpit Linked Code Details'[technology], 'Cockpit Linked Code Details'[ServiceOfferings]=Sample 'Cockpit Linked Code Details'[ServiceOfferings], table_name=Cockpit Linked Code Details
+
+
+--- Sample document from table: CompanyMovementDetails ---
+CompanyMovementDetails[PreviousCompany]: BPOIN - Infosys BPM India Limited
+CompanyMovementDetails[PreviousRolePerformedBeforeTransfer]: Associate Consultant
+table_name: CompanyMovementDetails
+content: Sample data for table CompanyMovementDetails: CompanyMovementDetails[PreviousCompany]=BPOIN - Infosys BPM India Limited, CompanyMovementDetails[PreviousRolePerformedBeforeTransfer]=Associate Consultant, table_name=CompanyMovementDetails
+
+
+--- Sample document from table: Compliance ---
+Compliance[COCAcceptedDate]: 2020-04-29 21:00:55.780,
+Compliance[SAQCompletionDate]: 2020-01-16 05:40:24.863
+table_name: Compliance
+content: Sample data for table Compliance: Compliance[COCAcceptedDate]=2020-04-29 21:00:55.780,, Compliance[SAQCompletionDate]=2020-01-16 05:40:24.863, table_name=Compliance
+
+
+--- Sample document from table: DayWiseWorkFromOffice ---
+DayWiseWorkFromOffice[WorkFromOfficeDate]: 2023-10-12 00:00:00.000
+table_name: DayWiseWorkFromOffice
+content: Sample data for table DayWiseWorkFromOffice: DayWiseWorkFromOffice[WorkFromOfficeDate]=2023-10-12 00:00:00.000, table_name=DayWiseWorkFromOffice
+
+
+--- Sample document from table: ELF Next due by Calculation ---
+'ELF Next due by Calculation'[FormType]: 88.64
+'ELF Next due by Calculation'[RatingOrScore]: Sample 'ELF Next due by Calculation'[RatingOrScore]
+'ELF Next due by Calculation'[CustomerFeedback]: Sample 'ELF Next due by Calculation'[CustomerFeedback]
+'ELF Next due by Calculation'[Frequency]: Sample 'ELF Next due by Calculation'[Frequency]
+'ELF Next due by Calculation'[MaxRatingScale]: 1
+'ELF Next due by Calculation'[ELFReceivedDate]: 2024-01-01 00:00:00
+'ELF Next due by Calculation'[Next due by]: Sample 'ELF Next due by Calculation'[Next due by]
+'ELF Next due by Calculation'[ELF Received Status]: Sample 'ELF Next due by Calculation'[ELF Received Status]       
+'ELF Next due by Calculation'[ELFExemptedFlag]: Sample 'ELF Next due by Calculation'[ELFExemptedFlag]
+table_name: ELF Next due by Calculation
+content: Sample data for table ELF Next due by Calculation: 'ELF Next due by Calculation'[FormType]=88.64, 'ELF Next due by Calculation'[RatingOrScore]=Sample 'ELF Next due by Calculation'[RatingOrScore], 'ELF Next due by Calculation'[CustomerFeedback]=Sample 'ELF Next due by Calculation'[CustomerFeedback], 'ELF Next due by Calculation'[Frequency]=Sample 'ELF Next due by Calculation'[Frequency], 'ELF Next due by Calculation'[MaxRatingScale]=1, 'ELF Next due by Calculation'[ELFReceivedDate]=2024-01-01 00:00:00, 'ELF Next due by Calculation'[Next due by]=Sample 'ELF Next due by Calculation'[Next due by], 'ELF Next due by Calculation'[ELF Received Status]=Sample 'ELF Next due by Calculation'[ELF Received Status], 'ELF Next due by Calculation'[ELFExemptedFlag]=Sample 'ELF Next due by Calculation'[ELFExemptedFlag], table_name=ELF Next due by Calculation
+
+
+--- Sample document from table: Effort ---
+table_name: Effort
+content: Sample data for table Effort: table_name=Effort
+
+
+--- Sample document from table: Expense ---
+table_name: Expense
+content: Sample data for table Expense: table_name=Expense
+
+
+--- Sample document from table: JoinedDetails ---
+JoinedDetails[DateofJoining]: 2021-11-03 12:20:37.000
+JoinedDetails[EntityJoined]: INFSYS - Infosys Limited, India
+JoinedDetails[PreviousEmployeeNumbers]: 9876592
+JoinedDetails[Rejoiner]: No
+table_name: JoinedDetails
+content: Sample data for table JoinedDetails: JoinedDetails[DateofJoining]=2021-11-03 12:20:37.000, JoinedDetails[EntityJoined]=INFSYS - Infosys Limited, India, JoinedDetails[PreviousEmployeeNumbers]=9876592, JoinedDetails[Rejoiner]=No, table_name=JoinedDetails
+
+
+--- Sample document from table: LeaveEligibility ---
+LeaveEligibility[EarnedLeaveBalance]: 5
+LeaveEligibility[EarnedLeavesCredited(CurrentFY)]: 0
+LeavesTaken(CurrentFY): 13.5
+LeaveEligibility[LeavesToBeLapsed(>30)]: 6
+MinimumEarnedLeavesToBeAvailed(CurrentFY): 12.5
+table_name: LeaveEligibility
+content: Sample data for table LeaveEligibility: LeaveEligibility[EarnedLeaveBalance]=5, LeaveEligibility[EarnedLeavesCredited(CurrentFY)]=0, LeavesTaken(CurrentFY)=13.5, LeaveEligibility[LeavesToBeLapsed(>30)]=6, MinimumEarnedLeavesToBeAvailed(CurrentFY)=12.5, table_name=LeaveEligibility
+
+
+--- Sample document from table: LeaveTransaction ---
+LeaveTransaction[Country]: India
+LeaveTransaction[EndDate]: 2024-06-07 17:08:28.000
+LeaveTransaction[LeaveType]: Optional Holiday
+LeaveTransaction[NoOfDays]: 10.5
+LeaveTransaction[StartDate]: 2024-04-26 00:00:00.000
+table_name: LeaveTransaction
+content: Sample data for table LeaveTransaction: LeaveTransaction[Country]=India, LeaveTransaction[EndDate]=2024-06-07 17:08:28.000, LeaveTransaction[LeaveType]=Optional Holiday, LeaveTransaction[NoOfDays]=10.5, LeaveTransaction[StartDate]=2024-04-26 00:00:00.000, table_name=LeaveTransaction
+
+
+--- Sample document from table: MasterData ---
+MasterData[Account]: INFOSYS
+MasterData[BaseLocation]: Mysore
+MasterData[Company]: INFSYS
+MasterData[Confirmation]: 2004-09-01 00:00:00.000
+MasterData[CurrentLocation]: Jaipur
+MasterData[DateOfJoining]: 2001-09-01 00:00:00.000
+MasterData[DU]: ES-BLR5
+MasterData[EmployeeMailID]: Binayak_B
+MasterData[EmployeeNo]: 10870
+MasterData[IcountReviewerMailID]: sunil_thakur
+MasterData[InfosysExperience]: 0 Years 8 Months
+MasterData[JobLevel]: 5
+MasterData[OnNotice]: Yes
+MasterData[Project]: ISAIDATA
+MasterData[ProjectManagerMailID]: arun_k
+MasterData[PU]: IS
+MasterData[RoleCode]: 2015ASRCON
+MasterData[TotalExperience]: 21 Years 8 Months( Infy Experience - 21 Years 8 Months , Past Experience -0 Years 0 Months)
+MasterData[Unit]: SOURCE
+table_name: MasterData
+content: Sample data for table MasterData: MasterData[Account]=INFOSYS, MasterData[BaseLocation]=Mysore, MasterData[Company]=INFSYS, MasterData[Confirmation]=2004-09-01 00:00:00.000, MasterData[CurrentLocation]=Jaipur, MasterData[DateOfJoining]=2001-09-01 00:00:00.000, MasterData[DU]=ES-BLR5, MasterData[EmployeeMailID]=Binayak_B, MasterData[EmployeeNo]=10870, MasterData[IcountReviewerMailID]=sunil_thakur, MasterData[InfosysExperience]=0 Years 8 Months, MasterData[JobLevel]=5, MasterData[OnNotice]=Yes, MasterData[Project]=ISAIDATA, MasterData[ProjectManagerMailID]=arun_k, MasterData[PU]=IS, MasterData[RoleCode]=2015ASRCON, MasterData[TotalExperience]=21 Years 8 Months( Infy Experience - 21 Years 8 Months , Past Experience -0 Years 0 Months), MasterData[Unit]=SOURCE, table_name=MasterData
+
+
+--- Sample document from table: MonthWiseWorkFromOffice ---
+MonthWiseWorkFromOffice[Month]: 8
+MonthWiseWorkFromOffice[WorkFromOfficeCount]: 11
+MonthWiseWorkFromOffice[Year]: 2024
+table_name: MonthWiseWorkFromOffice
+content: Sample data for table MonthWiseWorkFromOffice: MonthWiseWorkFromOffice[Month]=8, MonthWiseWorkFromOffice[WorkFromOfficeCount]=11, MonthWiseWorkFromOffice[Year]=2024, table_name=MonthWiseWorkFromOffice
+
+
+--- Sample document from table: PartTime ---
+PartTime[ApprovedOn]: 2010-09-27 10:15:00
+PartTime[DateApplied]: 2012-03-12 13:41:00
+PartTime[EndDate]: 2011-07-28 00:00:00.000
+PartTime[RequestType]: New Request
+PartTime[StartDate]: 2009-03-01 00:00:00.000
+table_name: PartTime
+content: Sample data for table PartTime: PartTime[ApprovedOn]=2010-09-27 10:15:00, PartTime[DateApplied]=2012-03-12 13:41:00, PartTime[EndDate]=2011-07-28 00:00:00.000, PartTime[RequestType]=New Request, PartTime[StartDate]=2009-03-01 00:00:00.000, table_name=PartTime
+
+
+--- Sample document from table: Project Details ---
+Project Details[Master Customer Code]: Sample Project Details[Master Customer Code]
+Project Details[Service Line Unit]: Sample Project Details[Service Line Unit]
+Project Details[Service Line Unit 2]: Sample Project Details[Service Line Unit 2]
+Project Details[Project PU]: Sample Project Details[Project PU]
+Master Project Code: Sample Master Project Code
+Project Details[Revenue Credit Unit]: Sample Project Details[Revenue Credit Unit]
+Project Details[Contract Type]: Sample Project Details[Contract Type]
+'Period'[Month]: Sample 'Period'[Month]
+'Period'[txtFiscalYear]: Sample 'Period'[txtFiscalYear]
+'Period'[Fiscal Quarter]: Sample 'Period'[Fiscal Quarter]
+table_name: Project Details
+content: Sample data for table Project Details: Project Details[Master Customer Code]=Sample Project Details[Master Customer Code], Project Details[Service Line Unit]=Sample Project Details[Service Line Unit], Project Details[Service Line Unit 2]=Sample Project Details[Service Line Unit 2], Project Details[Project PU]=Sample Project Details[Project PU], Master Project Code=Sample Master Project Code, Project Details[Revenue Credit Unit]=Sample Project Details[Revenue Credit Unit], Project Details[Contract Type]=Sample Project Details[Contract Type], 'Period'[Month]=Sample 'Period'[Month], 'Period'[txtFiscalYear]=Sample 'Period'[txtFiscalYear], 'Period'[Fiscal Quarter]=Sample 'Period'[Fiscal Quarter], table_name=Project Details
+
+
+--- Sample document from table: RSU ---
+RSU[UnitsGranted]: 100
+RSU[YearGranted]: 2020
+table_name: RSU
+content: Sample data for table RSU: RSU[UnitsGranted]=100, RSU[YearGranted]=2020, table_name=RSU
+
+
+--- Sample document from table: Revenue ---
+table_name: Revenue
+content: Sample data for table Revenue: table_name=Revenue
+
+
+--- Sample document from table: SecondmentDetails ---
+SecondmentDetails[FromDate]: 2021-11-25 10:21:59.210
+SecondmentDetails[HomeCompany]: Infosys Limited, India
+SecondmentDetails[HostCompany]: Infosys BPO Limited
+SecondmentDetails[Location]: IBPOUSATLANT
+SecondmentDetails[ToDate]: 2024-01-12 10:21:59.000
+table_name: SecondmentDetails
+content: Sample data for table SecondmentDetails: SecondmentDetails[FromDate]=2021-11-25 10:21:59.210, SecondmentDetails[HomeCompany]=Infosys Limited, India, SecondmentDetails[HostCompany]=Infosys BPO Limited, SecondmentDetails[Location]=IBPOUSATLANT, SecondmentDetails[ToDate]=2024-01-12 10:21:59.000, table_name=SecondmentDetails
+
+
+--- Sample document from table: SeparationDetails ---
+SeparationDetails[LastWorkingDay]: 2020-05-03 10:21:59.000
+SeparationDetails[ReasonForSeparation]: Taking time off for family or a medical need
+SeparationDetails[SeparationInitiationDate]: 2015-01-24 04:52:00
+SeparationDetails[WithdrawalDate]: 2024-04-16 10:36:00
+table_name: SeparationDetails
+content: Sample data for table SeparationDetails: SeparationDetails[LastWorkingDay]=2020-05-03 10:21:59.000, SeparationDetails[ReasonForSeparation]=Taking time off for family or a medical need, SeparationDetails[SeparationInitiationDate]=2015-01-24 04:52:00, SeparationDetails[WithdrawalDate]=2024-04-16 10:36:00, table_name=SeparationDetails      
+
+
+--- Sample document from table: Transfer ---
+Transfer[DateOfTransfer]: 1900-01-01 00:00:00.000
+Transfer[FromLocation]: MFGBI-INF
+Transfer[ToLocation]: BIDICOE
+Transfer[TypeOfTransfer]: Unit
+table_name: Transfer
+content: Sample data for table Transfer: Transfer[DateOfTransfer]=1900-01-01 00:00:00.000, Transfer[FromLocation]=MFGBI-INF, Transfer[ToLocation]=BIDICOE, Transfer[TypeOfTransfer]=Unit, table_name=Transfer
+
+
+--- Sample document from table: WorkDayStatus ---
+WorkDayStatus[Date]: 2020-10-08 09:00:00
+WorkDayStatus[OfficeSwipeInDateTime]: 2020-08-09 09:00:00
+WorkDayStatus[OfficeSwipeOutDateTime]: 2021-01-10 18:00:00
+WorkDayStatus[StatusCode]: P
+WorkDayStatus[StatusDescription]: Onsite
+WorkDayStatus[TotalOfficeHours]: 9
+table_name: WorkDayStatus
+content: Sample data for table WorkDayStatus: WorkDayStatus[Date]=2020-10-08 09:00:00, WorkDayStatus[OfficeSwipeInDateTime]=2020-08-09 09:00:00, WorkDayStatus[OfficeSwipeOutDateTime]=2021-01-10 18:00:00, WorkDayStatus[StatusCode]=P, WorkDayStatus[StatusDescription]=Onsite, WorkDayStatus[TotalOfficeHours]=9, table_name=WorkDayStatus

@@ -1,0 +1,9 @@
+{
+  "appContainerApps": "ca",
+  "appManagedEnvironments": "cae",
+  "containerRegistryRegistries": "cr",
+  "insightsComponents": "ai",
+  "keyVaultVaults": "kv",
+  "managedIdentityUserAssignedIdentities": "id",
+  "operationalInsightsWorkspaces": "log"
+}
