@@ -74,6 +74,8 @@ Thumbs.db
 # Logs
 *.log
 logs/*.log
+logs/events.csv
+logs/events.jsonl
 
 # Azure files
 .azure/config
